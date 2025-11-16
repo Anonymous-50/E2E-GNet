@@ -15,7 +15,7 @@ Geometric deep learning has recently gained significant attention in the compute
 ## Datasets and Preprocessing
 ### Action Recongition Datasets (NTU-RDB+D and NTU-RGB+D120)
 - Download the dataset (the skeleton files only are sufficient) from the dataset page [here](https://rose1.ntu.edu.sg/dataset/actionRecognition/)
-- After downloading the skeleton files, (a) cd into `/NTU_data_preprocessing_folder/data/NTU-RGB+D/`and paste the skeleton files here for NTU-60. For NTU-120, paste the skeleton files into its corresponding folder. (b) Now cd into `E2E-GNet/NTU_data_preprocessing_folder/data_gen/` and run the file 'ntu_gen_preprocess60.py' and then the file 'generate_2bodies.py' to generate and preprocess the skeleton files. Follow the same step for NTU-120. 
+- After downloading the skeleton files, (a) cd into `/NTU_data_preprocessing_folder/data/NTU-RGB+D/`and paste the skeleton files here for NTU-60. For NTU-120, paste the skeleton files into its corresponding folder. (b) Now cd into `E2E-GNet/NTU_data_preprocessing_folder/data_gen/` and run the file `ntu_gen_preprocess60.py` and then the file `generate_2bodies.py` to generate and preprocess the skeleton files. Follow the same step for NTU-120. 
 ### Disease and Rehabilitation Datasets (EHE, KIMORE and UI-PRMD)  
 - These can be obtained from [here](https://github.com/bruceyo/EGCN/tree/master)
 - The preprocessing codes are also available on the data webpage. 
