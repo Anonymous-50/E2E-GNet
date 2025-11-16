@@ -1,12 +1,12 @@
 # **A Novel End-to-End Skeleton-based Geometric Deep Neural Network for Human Motion Recognition** 
 
-<div align="center">
-    <img src="E2E_GNet.png">
-</div>
-
 ## Abstract
 <div style="text-align: justify"> 
 Geometric deep learning has recently gained significant attention in the computer vision and AI community for its ability to capture meaningful representations of data lying in a non-Euclidean space. To this end, we propose E2E-GNet, a novel end-to-end geometric deep neural network for skeleton-based human motion recognition. To enhance the discriminative power between different motions in the non-Euclidean space, E2E-GNet introduces a geometric transformation layer that jointly optimizes skeleton motion sequences on this space and applies a differentiable logarithm map activation to project them onto a linear space. Building on this, we further design a distortion-aware optimization layer that limits skeleton shape distortions caused by this projection, enabling the network to retain discriminative geometric cues and achieve a higher motion recognition rate. We demonstrate the impact of each layer through ablation studies and extensive experiments across five datasets spanning three domains---action recognition, disease analysis, and rehabilitation---show that E2E-GNet outperforms all other state-of-the-art methods on all benchmarks on both performance and cost.
+</div>
+
+<div align="center">
+    <img src="E2E_GNet.png">
 </div>
 
 ## Packages and Dependencies
