@@ -13,9 +13,9 @@ Geometric deep learning has recently gained significant attention in the compute
 - For packages and dependencies, first create an enviroment using Python, activate the enviroment and run `pip install -r requirements.txt` . We run all our experiments on Python version 3.12.6
 
 ## Datasets
-### NTU-RDB+D and NTU-RGB+D120 Datasets
+### Action Recongition Datasets (NTU-RDB+D and NTU-RGB+D120)
 - Download the dataset (the skeleton files only are sufficient) from the dataset page [here](https://rose1.ntu.edu.sg/dataset/actionRecognition/)
-### EHE, KIMORE and UI-PRMD Datasets  
+### Disease and Rehabilitation Datasets (EHE, KIMORE and UI-PRMD)  
 - These can be obtained from [here](https://github.com/bruceyo/EGCN/tree/master)
 
 ## Scripts Organization
