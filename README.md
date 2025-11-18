@@ -23,11 +23,11 @@ Geometric deep learning has recently gained significant attention in the compute
 ## Scripts Organization
 - Each dataset folder contains all the scripts for the respective dataset and category.
 
-## Usage or Training and Evaluation Per Dataset and Exercise 
-- To run our model for EHE, KIMORE or UI-PRMD per exercise, `cd` into the 'run_files' folder and then  `python .\run_file_GeoDML_Softmax.py` or the Sigmoid file for our best variants described in the paper. You can similarly run `python .\run_file_KShapeNet_softmax.py` or the Sigmoid version for KShapeNet only.
-  
-## Test Probabilities Evaluation Metrics
-- To compute ED, CR, SD and DM, use the file 'compute_euclid_and_corr' in the EHE forlder for EHE dataset; the file 'compute_cr_corr_KIMORE' for the KIMORE dataset; and the file 'compute_sd_and_dm_UI-PRMD' for the UI-PRMD dataset.
+## Training and Testing 
+- To run E2E-GNet for action recognition datasets, cd into `run_files` in the `action_recognition` folder and run the file `E2E_NTU120_DML_glob_in.py` or the E2E_NTU60_DML_glob_in.py for NTU-60 or NTU-120 as the case may be.
+- To run E2E-GNet for disease datasets, cd into `run_file_EHE` or `run_file_KIMORE` and run the file `EHE_E2E_DML_glob_h.py` or `KIMORE_E2E_DML_glob_h.py` for EHE or KIMORE as the case may be.
+- To run E2E-GNet for rehabilitation datasets, cd into `run_file` and run the file `E2E_DML_glob_h.py` as the case may be.
 
-## Usage or Training and Evaluation Per Dataset for Multi-Class
-- To perform multi-class training and evaluation, use the folder for each dataset with the name 'multi_class' appeneded. `cd` into the 'run_files' folder and `python .\GeoDML.py` for ours or `python .\Kshape_only.py` for KShapeNet. 
+## Ablation Study Scripts
+- Ablation study scripts for running parallel transport (PT) are available in `ablation_files/parallel_transport/run_file_PT/` under the `parallel transport` folder.
+- Ablation study scripts for contribution of GTL and DML are available in `/ablation_files/components_contribution/run_files/` under the `components_contribution` folder. 
