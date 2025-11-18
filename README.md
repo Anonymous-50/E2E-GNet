@@ -24,7 +24,7 @@ Geometric deep learning has recently gained significant attention in the compute
 - Each dataset folder contains all the scripts for the respective dataset and category.
 
 ## Training and Testing 
-- To run E2E-GNet for action recognition datasets, cd into `run_files` in the `action_recognition` folder and run the file `E2E_NTU120_DML_glob_in.py` or the E2E_NTU60_DML_glob_in.py for NTU-60 or NTU-120 as the case may be.
+- To run E2E-GNet for action recognition datasets, cd into `run_files` in the `action_recognition` folder and run the file `E2E_NTU120_DML_glob_in.py` or the file `E2E_NTU60_DML_glob_in.py` for NTU-60 or NTU-120 as the case may be.
 - To run E2E-GNet for disease datasets, cd into `run_file_EHE` or `run_file_KIMORE` and run the file `EHE_E2E_DML_glob_h.py` or `KIMORE_E2E_DML_glob_h.py` for EHE or KIMORE as the case may be.
 - To run E2E-GNet for rehabilitation datasets, cd into `run_file` and run the file `E2E_DML_glob_h.py` as the case may be.
 
